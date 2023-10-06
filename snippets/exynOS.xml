@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="exynos"
+           fetch="https://github.com/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/fourteen" />
+
+           
+  <project path="system/bpf" name="platform/system/bpf" groups="pdk" remote="exynos"/>
